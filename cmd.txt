@@ -1,0 +1,12 @@
+$ php artison make:EditController
+$ php artisan migrate
+$ php artisan make:migration create_employees_table
+ php artisan make:controller Employee/EmployeController --resource
+
+
+   /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
